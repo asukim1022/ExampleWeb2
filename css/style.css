@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {margin:0;padding:0; font-family:san-serif;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+/** header **/
+.wrapper{background:url(../images/pic01.jpg) no-repeat; background-size:cover; height:850px; padding:0; margin:0; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.wrapper header{width:100%; margin:0 auto; padding-top:150px; position: relative; top: 0px; left: 0px; right: 0px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.wrapper header h1{float:left; color:#fff; font-size:45px; position: absolute; left: 50px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.wrapper header nav{position: absolute; right: 40px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.wrapper header nav span{margin-left:270px; display:block; background-color:#FC3; color:#421; border-radius:26px; line-height:45px; width:130px; height:50px; text-align:center;}
+.wrapper header nav ul{float:right; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.wrapper header nav ul li{float:left; margin-left:20px; color:#fff; margin-top:20px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.wrapper header nav ul li a{color:#fff;}
+.wrapper header nav ul li.na{margin-top:33px;}
+.wrapper header nav ul li.na:hover {background-color:#ffcc33ad; -webkit-transition: all 0.3s; transition: all 0.3s;}
+
+/** banner **/
+.wrapper .banner{height:500px; background-color:rgba(0,0,0,.8); margin-top:200px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.wrapper .banner div{margin:0 auto; position: absolute; left: 0px; right: 0px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.wrapper .banner div h2{color:#fff; font-size:60px;padding-top:70px; text-align:center;}
+.wrapper .banner div p{color:#CCC; font-size:30px; padding-top:25px; text-align:center;}
+.wrapper .banner div span{text-align: center; left: 0px; right: 0px; position: absolute;}
+.wrapper .banner div span a{display:inline-block; background-color:#FC3; color:#421; border-radius:26px; line-height:65px; width:200px; height:70px; font-size:20px; text-align:center; margin-top:100px;}
+
+/** own **/
+.one{position: relative; display: inline-block; margin: 0 auto; height: auto; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div{margin:0 auto; padding-bottom: 30px; position: relative; display: inline-block; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div h2{font-size:40px; text-align:center; color:#333; margin-top:90px;}
+.one div p{text-align:center; color:#999; margin-top:10px; font-size:18px;}
+.one div ul{display: inline-block; margin: 0 auto; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div ul li{float:left; text-align:center; margin-top:70px; width: 31%; padding: 1%; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div ul li:last-child {margin-right:0px;}
+.one div ul li span {text-align: center;}
+.one div ul li span a{display:inline-block; background-color:#FC3; color:#421; border-radius:26px; line-height:55px; width:170px; height:60px; font-size:20px; text-align:center; margin-top:50px; }
+.one div ul li p{color:#333; font-size:16px;}
+
+/** two **/
+.two{background-color:#FC3; height:auto; padding-bottom: 30px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.two div{margin:0 auto; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.two div h2{margin-top:40px; color:#fff; font-size:45px; text-align:center; padding-top:120px;}
+.two div h3{text-align:center; color:#FFC; font-size:19px; margin-top:10px; font-weight:100;}
+.two div img{margin-top:50px; width:100%;}
+.two div p{text-align:center; margin-top:50px; color:#fff; line-height:30px;}
+.two div p span{text-decoration:underline;}
+.two div span {position: relative; text-align: center; margin: 0 auto; display: block;}
+.two div span a{display:inline-block; background-color:#fff; color:#421; border-radius:26px; line-height:55px; width:250px; height:60px; font-size:20px; text-align:center; margin-top:50px; }
+
+/** footer **/
+footer{background-color:#333; height:auto;}
+footer div{width:auto; margin:0 auto; padding-top: 40px; padding-bottom: 40px;}
+footer div p{color:#999; text-align:center; font-weight:100; font-size:16px;}
+
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 900px) {  
+    .wrapper header nav {position: absolute; right: 40px; left: 40px; top: 210px;}
+    .wrapper header nav span {margin-left: 0px;}
+    .wrapper header nav ul {float: none;    width: 572px; left: 50%; position: relative;margin-left: -286px;}
+    .wrapper header nav ul li {margin-left: 10px; margin-right: 10px;}
+}
+
+@media screen and (max-width: 700px) {  
+    .one div ul li {float: none; width: 100%;}
+    .wrapper header nav ul {width: auto; left: 0px; margin-left: 0px; float: none;}
+    .wrapper header nav ul li {float: none;}
+    .wrapper header nav span {width: 100%; text-align: center;}
+    .wrapper header nav ul li.na {background: #4c4c4c5e; text-align: center; border-radius: 25px; padding-bottom: 10px; padding-top: 10px;}
+    .wrapper .banner {margin-top: 470px;}
+    .wrapper {height: auto;}
+    .one{position: relative; display: inline-block; margin: 0 auto; height: auto; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div{margin:0 auto; padding-bottom: 30px; position: relative; display: inline-block; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div h2{font-size:40px; text-align:center; color:#333; margin-top:90px;}
+.one div p{text-align:center; color:#999; margin-top:10px; font-size:18px;}
+.one div ul{display: inline-block; margin: 0 auto; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div ul li{float:left; text-align:center; margin-top:70px; width: 31%; padding: 1%; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div ul li:last-child {margin-right:0px;}
+.one div ul li span {text-align: center;}
+.one div ul li span a{display:inline-block; background-color:#FC3; color:#421; border-radius:26px; line-height:55px; width:170px; height:60px; font-size:20px; text-align:center; margin-top:50px; }
+.one div ul li p{color:#333; font-size:16px;}
+    .wrapper header nav ul li.na {margin-top: 17px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
